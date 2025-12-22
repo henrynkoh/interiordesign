@@ -1,0 +1,66 @@
+Hi [Partner Name],
+
+I've been working on an exciting new project and would love your feedback! 
+
+🏠 Interior Design Generator - An AI-powered tool that transforms floor plans into stunning interior designs in 60 seconds.
+
+What it does:
+✨ Upload a floor plan → Choose a style → Get 4 professional design variations instantly
+
+Key features:
+• 6 design styles (Modern, Scandinavian, Industrial, Traditional, Contemporary, Bohemian)
+• Professional 1024x1024 resolution images
+• 99% cost savings vs traditional 3D rendering ($10 vs $1,500+)
+• 99% time savings (60 seconds vs 3 weeks)
+• No design experience needed
+
+I'd love your input on:
+- User interface and experience
+- Feature suggestions and improvements
+- Design and visual appeal
+- Business model feedback
+- Technical architecture review
+- Market positioning
+
+Try it here:
+GitHub: https://github.com/henrynkoh/interiordesign
+
+Quick Setup:
+1. git clone https://github.com/henrynkoh/interiordesign.git
+2. cd interiordesign && npm install
+3. Get OpenAI API key from platform.openai.com
+4. Create .env.local with: OPENAI_API_KEY=your_key
+5. npm run dev
+6. Open http://localhost:3000
+
+Quick Demo:
+1. Upload any floor plan image (PNG, JPG, WEBP)
+2. Select a design style
+3. Wait 30-90 seconds
+4. Download professional results
+
+Documentation:
+- README.md - Complete overview
+- MANUAL.md - Detailed user guide
+- TUTORIAL.md - Step-by-step tutorials
+- QUICKSTART.md - 5-minute setup
+
+What I'm looking for:
+- Honest feedback on all aspects
+- Suggestions for improvements
+- Feature requests
+- Bug reports
+- Business insights
+- Partnership opportunities
+
+Your expertise would be incredibly valuable! I'm open to collaboration and would love to hear your thoughts.
+
+Thank you so much for your time!
+
+Best regards,
+[Your Name]
+
+Contact:
+GitHub: https://github.com/henrynkoh/interiordesign
+Email: [Your Email]
+
