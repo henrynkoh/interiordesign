@@ -7,7 +7,17 @@ const openai = new OpenAI({
 
 export async function POST(request: NextRequest) {
   try {
-    const { imageUrl, style } = await request.json();
+    let body;
+    try {
+      body = await request.json();
+    } catch (parseError) {
+      return NextResponse.json(
+        { error: 'Invalid JSON in request body' },
+        { status: 400 }
+      );
+    }
+
+    const { imageUrl, style } = body;
 
     if (!imageUrl) {
       return NextResponse.json(
